@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GET STARTED</title>
+        <style>
+            body {
+                background-image: url("photo.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size:200%; color: darkorchid; text-align:center;">GET STARTED</h1>
+        <form action="/server.php" method="get">
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name="firstname"><br><br>
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname"><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"><br><br>
+                <label for="number">Phone number:</label>
+                <input type="text" id="number" name="number"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="image">Send a payment check</label>
+                <input type="file" name="image" id="image"><br><br>
+                <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

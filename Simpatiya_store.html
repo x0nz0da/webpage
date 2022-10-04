@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simpatiya Store</title>
+    </head>
+    <body style="text-align: center;">
+        <img src="simpatiya.png" alt="Simpatiya Store" width="880" height="190">
+        <h1 style="font-size:600%; color: darkorchid; text-align: center;">SIMPATIYA STORE</h1>
+        <h3 style="font-size:300%; color: darkorchid; text-align: center;">FASHION EST.2022</h3>
+        <p style="text-align: center; font-size: 150%;"><strong><em>Simpatiya Store </em></strong>started its activity as an online shop <br>
+            for the first time in 2022.<br>
+            Founder - <strong><em>MISS XONZODA</em></strong><br>
+            Store is engaged in the sale of clothes of various famous brands of the world. <br>
+            Now in our store you can find clothes of brands such as <br>
+            <p style="text-align: center; color: palevioletred; font-size: 150%;">ZARA , POLO , MANGO , CHANEL , BERSHKA , VERSACHE , MODANISA , STRADIVARIUS , YES SAINT LAURENT </p>
+            <h style="font-size:400%; color: darkorchid; text-align: center;">LOVELY CLOTHES</h>
+            <a href="bags.html"><p style="font-size:250%; color: red; text-align: center;">BAGS</p></a>
+            <a href="dresses.html"><p style="font-size:250%; color: red; text-align: center;">DRESSES</p></a>
+            <a href="accesories.html"><p style="font-size:250%; color: red; text-align: center;">ACCESORIES</p></a>
+            <a href="tshirts.html"><p style="font-size:250%; color: red; text-align: center;">T-SHIRTS, TOPS</p></a>
+            <a href="heels.html"><p style="font-size:250%; color: red; text-align: center;">HEELS, SANDALS</p></a>
+        </p>
+        <br>
+        <hr>
+        <br>
+        <h1 style="font-size:200%; color: darkorchid; text-align: center;">TO BUY</h1>
+        <form action="/server.php" method="get">
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name="firstname"><br><br>
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname"><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"><br><br>
+                <label for="number">Phone number:</label>
+                <input type="text" id="number" name="number"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <p style="font-size: 150%;">Select a payment type</p>
+                <input type="radio" id="cash" name="pay" value="cash">
+                <label for="cash">Cash</label><br>
+                <input type="radio" id="bycard" name="pay" value="card">
+                <label for="bycard">By Card</label> <br><br>
+                <label for="image">Send a payment check</label>
+                <input type="file" name="image" id="image"><br><br>
+                <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
